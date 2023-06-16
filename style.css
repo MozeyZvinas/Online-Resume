@@ -39,10 +39,12 @@ hr {
   width: 50%;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 0;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #29f3c3;
   color: #272727;
+  text-align: center;
 }
